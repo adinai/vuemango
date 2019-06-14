@@ -1,0 +1,9 @@
+{
+    "_id": ObjectId("5ad2a2895e6cc109e86c456a"),
+    "email": "user1@test.com",
+    "first": "User1",
+    "last": "Test",
+    "password": "user111",
+    "isActive": true,
+    "createdOn": "2018-02-04T00:00:00.000Z"
+}
