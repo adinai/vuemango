@@ -1,15 +1,15 @@
 const express = require('express')
 const app = express()
 const api = require('./api')
-const bodyParser = require('body-parser')
 const morgan = require('morgan')
+const bodyParser = require('body-parser')
 
 app.set('port', (process.env.PORT || 8081))
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.use('./api', api)
+app.use('/api', api)
 app.use(express.static('static'))
 
 app.use(morgan('dev'))
