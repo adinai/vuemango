@@ -1,11 +1,18 @@
 <template>
     <div>
-        
+<transactions></transactions>
+<edit-transactions></edit-transactions>
     </div>
 </template>
 
 <script>
+import Transactions from './Transactions'
+import EditTransactions from './EditTransactions'
 export default {
+    components{
+        Transactions,
+        EditTransactions
+    }
 
 }
 </script>
