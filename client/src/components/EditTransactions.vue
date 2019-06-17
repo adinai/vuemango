@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        <h2> EditTransaction </h2>
     </div>
 </template>
 
